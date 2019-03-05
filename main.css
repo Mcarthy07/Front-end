@@ -1,0 +1,66 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;    
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+a{ 
+    color: #000;
+}
+header{
+    display: flex;  
+    justify-content: center;
+    margin: 0px 100px;  
+}
+header .menu{
+    margin: auto;
+    padding: 20px 0 0 0;
+}
+header .menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+header .menu ul li a{
+    padding: 100% 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+header .menu ul li a:hover{
+    background: #f1f1f1;
+}
+.text-center{
+    text-align: center;
+}
+.text-center h2{
+    position: relative;
+    text-transform: uppercase;
+    padding: 20px 10px;
+}
+.text-center h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 50px;
+    background: #000;
+}
+section.service{
+    background: #f1f1f1;
+}
+.content{
+    display: flex;
+    padding: 50px 40px;
+    justify-content: center;
+}
+.content article.item{
+    padding: 40px;
+    margin: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background: #FFF;
+}
